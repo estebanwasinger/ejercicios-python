@@ -9,3 +9,17 @@ def fact(num: int) -> int:
             num = num - 1
 
     return factorial
+
+
+def read_int() -> int:
+    int_value = input()
+    type(int)
+    return int(int_value)
+
+
+def read_float() -> float:
+    return float(input())
+
+
+def read_string() -> str:
+    return input()
