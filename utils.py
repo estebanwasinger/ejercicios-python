@@ -13,7 +13,11 @@ def fact(num: int) -> int:
 
 def read_int() -> int:
     int_value = input()
-    type(int)
+    return int(int_value)
+
+
+def read_int(mensaje: str) -> int:
+    int_value = input(mensaje)
     return int(int_value)
 
 
